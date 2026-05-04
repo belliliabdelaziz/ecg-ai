@@ -1,0 +1,14 @@
+name: ecg_live
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - tensorflow==2.10.0
+    - numpy<1.24
+    - matplotlib>=3.5
+    - opencv-python>=4.5
+    - flask>=2.0
+    - pyserial>=3.5
